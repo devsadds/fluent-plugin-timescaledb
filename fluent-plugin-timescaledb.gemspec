@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Write Fluent logs to TimescaleDB"
   s.authors     = ["Chris Northwood"]
   s.email       = 'chris.northwood@1500cloud.com'
-  s.homepage    = 'https://github.com/1500cloud/fluent-plugin-timescaledb'
+  s.homepage    = 'https://github.com/devsadds/fluent-plugin-timescaledb.git'
   s.files       = ["lib/fluent/plugin/out_timescaledb.rb"]
 
   s.add_runtime_dependency 'pg', '~> 1.1'
